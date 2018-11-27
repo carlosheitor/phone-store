@@ -2,10 +2,6 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: #e24647;
-}
-
-h1,
-a {
   color: #fff;
 }
 
@@ -14,8 +10,12 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+nav {
+  font-size: 1.312em;
+}
+
 a {
   text-decoration: none;
-  font-size: 1.312em;
   font-family: "Lora", serif;
+  color: inherit;
 }
