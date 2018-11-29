@@ -1,6 +1,9 @@
 body {
+  display: flex;
+  align-items: center;
   background-image: linear-gradient(to top, #ff2e63, #252a34);
   background-repeat: no-repeat;
   overflow: hidden;
   font-size: 16px;
+  height: 100vh;
 }
