@@ -9,24 +9,28 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="base.css" />
-    <link rel="stylesheet" href="container.css" />
-    <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/container.css" />
+    <link rel="stylesheet" href="css/header-store.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/button.css" />
   </head>
 
   <body>
     <div class="container">
-      <header>
-        <h1>LOGO</h1>
-        <nav>
-          <a href="https://google.com">Produtos</a>
-          <a href="https://google.com">Serviços</a>
-          <a href="https://google.com">Carrinho (10)</a>
+      <header class="header-store">
+        <h1 class="header-store__title">LOGO</h1>
+        <nav class="header-store__menu">
+          <a class="item-menu" href="https://lemonade.com">Produtos</a>
+          <a class="item-menu" href="https://lemonade.com">Serviços</a>
+          <a class="item-menu" href="https://lemonade.com">Carrinho (10)</a>
         </nav>
       </header>
-      <main><button>Comprar</button></main>
+      <main class="main">
+        <a href="comprar.html" class="button">Adiciona no carrinho</a>
+        <a href="comprar.html" class="button">Comprar</a>
+      </main>
     </div>
   </body>
 </html>

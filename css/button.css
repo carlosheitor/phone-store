@@ -1,15 +1,13 @@
-main {
-  background-color: #e24647;
-  margin: 0 115px;
-  padding: 55px 60px 95px;
-}
-button {
+.button {
+  display: inline-block;
+  text-align: center;
   background-color: #252c41;
   width: 200px;
   height: 60px;
   color: #fff;
   font-size: 1.25em;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 1;
+  line-height: 60px;
   border: 0;
+  text-decoration: none;
 }
