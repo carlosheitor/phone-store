@@ -1,6 +1,9 @@
 body {
+  /*
+  posicionamento com flex 
   display: flex;
-  align-items: center;
+  align-items: center; */
+  position: relative;
   background-image: linear-gradient(to top, #ff2e63, #252a34);
   background-repeat: no-repeat;
   overflow: hidden;

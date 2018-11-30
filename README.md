@@ -72,5 +72,20 @@ Pq usar class ou id (seletores)?
   - O que é refatoração: você escreve melhor o código, ou seja, melhora a qualidade do código sem adicionar nenhuma nova funcionalidade;
 
 * Nomenclatura de elementos (componentes):
+
   - usar o padrão de escrever com dois nomes.
   - lembra de renomear o nome do arquivo com o nome do componente mãe. Ex: header
+
+  * POSITION: Absolute:
+    - cria um novo contexto, tal como o float;
+    - pq diminui a largura assim que colocamos o position absolute, é pq assim como no float quem passa a definir a largura é o conteúdo do elemento;
+    - propriedade que podemos usar: top, left / bottom, right. Mas pq em pares: pois cada uma mexe com os mesmos elementos. O top e bottom mexem com eixo x e right e left com o eixo y. Dessa forma, conseguimos mover o elemento em relação a página;
+    - utilizando a porcentagem conseguimos posicionar o elemento em relação ao pai do elemento, porém lembrando que nivela pelo lado(propriedade) escolhido de cima do elemento;
+
+
+    * Transform
+     - translate: move em relação ao eixo do elemento;
+
+
+     * Dicas
+      - Width e Height, quando usamos a porcentagem, utilizamos como referência o pai;
