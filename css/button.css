@@ -1,5 +1,6 @@
 .button {
   display: inline-block;
+  box-sizing: border-box;
   text-align: center;
   background-color: #252c41;
   width: 200px;
@@ -10,4 +11,12 @@
   line-height: 60px;
   border: 0;
   text-decoration: none;
+  border: none;
+}
+
+.button.-secondary {
+  width: 218px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  line-height: 56px;
 }
