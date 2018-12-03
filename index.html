@@ -5,7 +5,7 @@
     <title>Phone Store</title>
 
     <link
-      href="https://fonts.googleapis.com/css?family=Lora"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
       rel="stylesheet"
     />
 
@@ -13,38 +13,45 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/container.css" />
     <link rel="stylesheet" href="css/header-store.css" />
+    <link rel="stylesheet" href="css/description-store.css" />
     <link rel="stylesheet" href="css/button.css" />
   </head>
 
   <body>
     <div class="container">
       <header class="header-store">
-        <h1 class="header-store__title">LOGO</h1>
-        <nav class="header-store__menu">
+        <h1 class="title">LOGO</h1>
+        <nav class="menu">
           <a class="item-menu" href="https://lemonade.com">Produtos</a>
           <a class="item-menu" href="https://lemonade.com">Serviços</a>
           <a class="item-menu" href="https://lemonade.com">Carrinho (10)</a>
         </nav>
       </header>
 
-      <main class="main">
-        <dl>
-          <dt>Fone, feliz e caro</dt>
+      <main class="main-store">
+        <dl class="description-store">
+          <dt class="title">Fone, feliz e caro</dt>
 
-          <dd>4.0 (97)</dd>
-          <dd>Frete C$ 108</dd>
-          <dd>Preço C$ 340</dd>
-          <dd>
+          <dd class="item-descrition -center">4.0 (97)</dd>
+          <dd class="item-descrition">Frete C$ 108</dd>
+          <dd class="item-descrition">Preço C$ 340</dd>
+          <dd class="item-descrition -big">
             Fone TOP com um cor feliz que não tem fio. A cor também é algo que
             impressiona junto com o seu layout modernão! Ele é caro? É! Mas
             compre que você não vai se arrepender e se você se arrepender pode
             vender no mercado livre..kkkk
           </dd>
-          <dd><a href="comprar.html">Saber mais...</a></dd>
-          <dd>
+          <dd class="item-descrition">
+            <a href="comprar.html" class="action">Saber mais...</a>
+          </dd>
+
+          <dd class="item-descrition -button">
             <button class="button -secondary">Adiciona no carrinho</button>
           </dd>
-          <dd><a href="comprar.html" class="button">Comprar</a></dd>
+
+          <dd class="item-descrition">
+            <a href="comprar.html" class="button">Comprar</a>
+          </dd>
         </dl>
       </main>
     </div>

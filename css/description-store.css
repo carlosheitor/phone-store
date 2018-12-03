@@ -1,0 +1,40 @@
+.description-store {
+  color: #fff;
+}
+
+.description-store > .title {
+  width: 259px;
+  height: 30px;
+  font-size: 1.5625em;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.description-store > .item-descrition {
+  font-size: 1.25em;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  width: 120px;
+  height: 24px;
+  margin-left: 0;
+  margin-bottom: 28px;
+}
+
+.description-store > .item-descrition.-center {
+  padding: 9px;
+}
+
+.description-store > .item-descrition.-big {
+  margin-top: 73px;
+  width: 550px;
+  height: 110px;
+  font-size: 1.125em;
+  line-height: 30px;
+}
+
+.item-descrition > .action {
+  text-decoration: none;
+  color: #fff;
+}
