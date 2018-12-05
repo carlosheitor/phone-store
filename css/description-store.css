@@ -26,6 +26,17 @@
   padding: 9px;
 }
 
+.description-store > .item-descrition.-inline {
+  display: inline-block;
+  font-size: 1.25em;
+  width: 218px;
+}
+
+.description-store > .item-descrition.-main {
+  width: 200px;
+  margin-left: 38px;
+}
+
 .description-store > .item-descrition.-big {
   margin-top: 73px;
   width: 550px;
