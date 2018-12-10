@@ -93,6 +93,7 @@ Pq usar class ou id (seletores)?
       - elementos que estão inline serão alinhados pela base da linha (baseline). Claro, se você não tiver setado o alinhamento vertical; Para tal, temos a propriedade vertical-align que alinha elementos display inline;
       - VARIAÇÃO NO CSS: toda classe que começa com o traço no CSS é uma variação. Mas o que é esse troço de VARIAÇÃO: ela precisa de uma base e depois dessa base é adicionado um recurso que fará uma diferença com aquela base;
       - Quando estamos descrevendo algo existe uma tag específica para isso, chamada: description list (<dl>); e para o título desses itens de descritivos é chamada de (<dt>); e para definir o que estou escrevendo é o <dd>; Isso torna seu código mais semântico e legível.
+      - utilizar o seletor direto é mais perfomático. Fica mais "baratao" para o navegador;
 
 - BOX-SIZING
   - Padrão é o content-box (o conteúdo é o que defini a largura e altura, tanto que qdo colocamos um border aumentamos o tamanho real dessas propriedades. O width aumenta de acordo com as border laterais e o heigth de acordo com as border top e bottom). Quando você coloca border-box, você informa que a borda é parte da caixa e o width e o heigth de dentro da caixa são subtraídos dos valores das bordas, porém permanece intacto os valores definidos no width e heigth. Por conta desse subtrair, muitas vezes precisamos diminuir o line-height do elemento pelos valores da borda para alinhar elementos inline;

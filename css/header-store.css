@@ -3,6 +3,7 @@
   justify-content: space-between;
   color: #fff;
   overflow: hidden;
+  margin-bottom: 138px;
 }
 
 .header-store > .title {
@@ -10,6 +11,7 @@
   font-family: Arial, Helvetica, sans-serif;
   float: left;
   margin: 0;
+  text-transform: uppercase;
 }
 
 .header-store > .menu {
