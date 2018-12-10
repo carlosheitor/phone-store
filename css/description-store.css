@@ -1,7 +1,8 @@
 .description-store {
   color: #fff;
   font-family: "Roboto", sans-serif;
-  float: right;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .description-store > .title {

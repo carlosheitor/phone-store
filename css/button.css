@@ -9,6 +9,8 @@
   font-family: Arial, "Roboto", sans-serif;
   line-height: 60px;
   margin-left: 0;
+  color: #fff;
+  border: 0;
 }
 
 .button.-secondary {

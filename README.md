@@ -52,7 +52,7 @@ Pq usar class ou id (seletores)?
 
   - permite que os elementos ficam um ao lado do outro por padrão (na mesma linha);
   - não conseguimos definir a altura (heigth) e largura (width);
-  -
+  - concede ao elemento o comportamento de uma palavra (conteúdo);
 
 - tag anchor tem display BLOCK que tem os seguintes comportamentos:
   - esse permite colocar a altura e largura, mas repara que o elemento vai um para baixo do outro;
@@ -64,6 +64,7 @@ Pq usar class ou id (seletores)?
 
   - permite definir width e height;
   - deixa elementos na mesma linha;
+  - concede ao elemento o comportamento de uma palavra (conteúdo);
 
 - Alinhamento:
 

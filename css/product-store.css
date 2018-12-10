@@ -1,5 +1,9 @@
 .product-store {
   float: left;
+  width: 601px;
+  height: 554px;
   background: #fff;
-  border-radius: 5px 120px 120px 5px;
+  border-radius: 5px 150px 150px 5px;
+  margin-right: 157px;
+  margin-left: 0;
 }
