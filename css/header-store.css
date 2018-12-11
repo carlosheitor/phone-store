@@ -15,6 +15,27 @@
   text-transform: uppercase;
 }
 
+.header-store > .search {
+  border: none;
+  border-bottom: 1px white solid;
+  width: 360px;
+  background: transparent;
+  margin-left: 300px;
+}
+
+::placeholder {
+  width: 56px;
+  height: 22px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
 .header-store > .menu {
   font-family: "Roboto", sans-serif;
   font-size: 1.312em;
